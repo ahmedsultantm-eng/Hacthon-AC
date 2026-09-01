@@ -6,6 +6,12 @@
 
 
 }
+body{
+    background-color: #abd1c6;
+}
+.sec-title{
+   color:#0f3433;
+}
 h4{
      position: absolute;
     bottom:100px;
