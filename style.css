@@ -1,0 +1,40 @@
+
+.contener{
+
+    display: flex;
+   gap: 25px;
+    /* justify-content: space-between; */
+
+}
+.card{
+    border-radius:30px;
+     position: relative;
+width: 250px;
+height: 350px;
+background-color: rgba(150, 203, 97, 0.147);
+}
+.card-btn{
+    position: absolute;
+    bottom:15px;
+    right: 54px;
+border-radius:10px;
+      background-color: rgb(90, 124, 38);
+      color: #FFFFFF;
+      width: 140px;
+      height: 30px;
+      border: none;
+}
+.card-btn:hover{
+    background-color: rgb(55, 80, 37);
+    cursor:pointer;
+}
+.card-img{
+position: absolute;
+border-radius: 12%;
+
+}
+.card-p{
+    position: absolute;
+    bottom:90px;
+    right:160px;
+}
