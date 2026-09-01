@@ -3,15 +3,28 @@
 
     display: flex;
    gap: 25px;
-    /* justify-content: space-between; */
 
+
+}
+h4{
+     position: absolute;
+    bottom:100px;
+    right:10px;
+  color:#fffffe;
+}
+.price{
+    position: absolute;
+    bottom:36px;
+    right:190px;
+  color: #abd1c6;
+    font-size: 25px;
 }
 .card{
     border-radius:30px;
      position: relative;
 width: 250px;
 height: 350px;
-background-color: rgba(150, 203, 97, 0.147);
+background-color:#004643;
 }
 .card-btn{
     position: absolute;
@@ -34,6 +47,7 @@ border-radius: 12%;
 
 }
 .card-p{
+    color: #abd1c6;
     position: absolute;
     bottom:90px;
     right:160px;
